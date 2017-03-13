@@ -1,0 +1,24 @@
+{
+  "name": "herogi-nodejs",
+  "version": "1.0.0",
+  "description": "Herogi nodejs library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herogi/herogi-nodejs.git"
+  },
+  "keywords": [
+    "http",
+    "rest",
+    "api"
+  ],
+  "author": "Herogi <info@herogi.com> (https://herogi.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Herogi/herogi-nodejs/issues"
+  },
+  "homepage": "https://github.com/Herogi/herogi-nodejs#readme"
+}
