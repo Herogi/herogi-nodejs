@@ -1,1 +1,1 @@
-exports = module.exports = require('./lib/sendgrid');
+exports = module.exports = require('./lib/herogi');
