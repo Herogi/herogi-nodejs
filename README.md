@@ -5,13 +5,15 @@ Herogi node.js helper library
 
 The following recommended installation requires npm
 
-```npm install --save herogi```
+```bash
+npm install --save herogi
+```
 
 ##Your First Event
 
-Following is minimum needed code send an event to Herogi, you can find the full example [here](https://github.com/Herogi/herogi-nodejs/blob/master/example.js) 
+Following is minimum needed code send an event to Herogi, you can find the full example [here](https://github.com/Herogi/herogi-nodejs/blob/master/example.js).
 
-```
+```javascript
 var herogi = require('herogi');
 
 var herogiClient = herogi("appId", "appSecret");
@@ -33,7 +35,7 @@ herogiClient.sendEvent(event, function(success, response){
 ###Sending to All Scenarios
 To send all scenarios available, you can skip to scenario specifying during event creation:
 
-```
+```javascript
 herogiClient.createEvent("user123", "eventName",[]);
 
 //or better
