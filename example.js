@@ -25,6 +25,8 @@ app.get('/', function (req, res) {
     herogiClient.sendEvent(event, function(success, response){
         console.log(success);
         console.log(response);
+        res.setHeader('Content-Type', 'application/json');
+        res.json(response);
     });
 });
 
